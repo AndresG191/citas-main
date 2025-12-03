@@ -1,5 +1,5 @@
-    Sistema de Agendamiento de Citas
-    Sistema completo de calendario y reservas construido con Next.js, TypeScript, React Big Calendar, TanStack Query, y SQLite.
+Sistema de Agendamiento de Citas
+Sistema completo de calendario y reservas construido con Next.js, TypeScript, React Big Calendar, TanStack Query, y SQLite.
 
 --------------------------------------------------------------------------
     Características
