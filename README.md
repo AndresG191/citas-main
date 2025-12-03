@@ -1,6 +1,7 @@
     Sistema de Agendamiento de Citas
     Sistema completo de calendario y reservas construido con Next.js, TypeScript, React Big Calendar, TanStack Query, y SQLite.
-    
+
+--------------------------------------------------------------------------
     Características
     📅 Calendario interactivo con vistas mensual, semanal y diaria
     ✨ Crear, editar y cancelar citas
@@ -9,6 +10,7 @@
     🎨 Interfaz moderna con Tailwind CSS
     💾 Base de datos SQLite local (sin configuración adicional)
     🔄 Actualizaciones en tiempo real con React Query
+--------------------------------------------------------------------------
     Tecnologías
     Frontend: Next.js 16, React 19, TypeScript
     Estilos: Tailwind CSS
@@ -17,6 +19,8 @@
     Estado del servidor: TanStack Query (React Query)
     Base de datos: SQLite (better-sqlite3)
     Fechas: Day.js
+
+--------------------------------------------------------------------------
     Instalación
     Las dependencias ya están instaladas. Si necesitas reinstalar:
     
@@ -34,7 +38,8 @@
     Ejecutar en Desarrollo
     npm run dev
     Abrir http://localhost:3000 en el navegador.
-    
+
+--------------------------------------------------------------------------
     Uso
     Crear una cita
     Click en "Nueva Cita" o selecciona un espacio en el calendario
@@ -47,7 +52,7 @@
     Click en "Cancelar cita"
     Base de Datos
     El archivo local.db se guarda en la raíz del proyecto.
-    
+
     Reiniciar la base de datos
     rm local.db
     npm run db:seed
@@ -67,6 +72,8 @@
     ├── hooks/           # React Query hooks
     ├── lib/             # Utilidades y validaciones
     └── types/           # TypeScript types
+
+--------------------------------------------------------------------------
     Personalización
     Cambiar horarios de negocio
     Edita src/lib/business-rules.ts:
